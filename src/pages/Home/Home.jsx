@@ -1,6 +1,7 @@
 import { Helmet } from "react-helmet-async";
 import Banner from "./Banner";
 import Menu from "./Menu";
+import Promotion from "./Promotion";
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
       </Helmet>
       <Banner></Banner>
       <Menu></Menu>
+      <Promotion></Promotion>
     </div>
   );
 };
